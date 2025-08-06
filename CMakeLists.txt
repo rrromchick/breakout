@@ -48,7 +48,8 @@ add_executable(main main.cpp game.h game.cpp resource_manager.h resource_manager
     shader.h shader.cpp stb_image.h texture.h texture.cpp
     sprite_renderer.h sprite_renderer.cpp file_system.h game_object.h game_object.cpp
     game_level.h game_level.cpp ball_object.h ball_object.cpp
-    particle_generator.h particle_generator.cpp post_processor.h post_processor.cpp)
+    particle_generator.h particle_generator.cpp post_processor.h post_processor.cpp
+    powerup.h text_renderer.h text_renderer.cpp)
 
 target_link_libraries(main PRIVATE glfw glad glm ${CMAKE_DL_LIBS} assimp freetype)
 
